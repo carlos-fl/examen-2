@@ -1,0 +1,11 @@
+### crear cliente
+POST http://localhost:8080/api/clientes/crear
+Content-Type: application/json
+
+{
+  "dni": "0801200416778",
+  "nombre": "carlos",
+  "apellido": "flores",
+  "correo": "carlos@gmail.com",
+  "telefono": "000000000"
+}
